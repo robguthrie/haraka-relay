@@ -47,11 +47,6 @@ Also add an SPF record on the root of the domain. This is good for basic purpose
 TXT "v=spf1 mx a -all"
 ```
 
-fill in dkim_sign.ini with selector and domain
-
-    create dns record for dkim and spf
-
-
 Create a user and password to use when connecting. This command adds a user called `user` and a generates a random password for you.
 
 ```sh
