@@ -15,8 +15,6 @@ chmod +x /usr/local/bin/docker-compose
 
 git clone git@github.com:username/haraka-relay
 
-## Generate TLS certificate
-
 Update docker-compose.yml with the hostname of your server.
 
 Run the following command to generate a self signed certificate. It will ask you
