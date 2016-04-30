@@ -54,17 +54,23 @@ fill in dkim_sign.ini with selector and domain
 
 Create a user and password to use when connecting. This command adds a user called `user` and a generates a random password for you.
 
+```sh
 echo "user=`openssl rand -hex 20`" >> config/auth_flat_file.ini
+```
 
 you good!
 
 Commit your changes
 
 to run:
+```sh
 docker-compose up -d
+```
 
 To see what's going on:
+```sh
 docker-compose logs
+```
 
 To learn more about docker have a look at this:
 https://larry-price.com/blog/2015/02/26/a-quick-guide-to-using-docker-compose-previously-fig
