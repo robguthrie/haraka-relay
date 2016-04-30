@@ -1,0 +1,7 @@
+smtp:
+  build: .
+  hostname: your-hostname
+  ports:
+    - 587:5870
+  volumes:
+    - ./queue:/queue

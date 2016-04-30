@@ -1,0 +1,9 @@
+{
+  "name": "haraka_local",
+  "description": "An SMTP Server",
+  "version": "0.0.1",
+  "dependencies": {
+    "Haraka": "2.8.0-alpha.9",
+    "stun": "0.0.3"
+  }
+}
